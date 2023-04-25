@@ -24,7 +24,7 @@ export default function Women({ cartID, addToCart }) {
 
     return <>
         <div className="filter row justify-content-between">
-            <div className="left d-flex col-md-6 ">
+            <div className="leftCateg d-flex col-md-6 ">
                 <p className='h4 fw-bold me-4'>Filter Products: </p>
                 <select className='form-select bg-dark text-light me-3' name="color" id="color">
                     <option disabled selected value="color">color</option>
@@ -43,7 +43,7 @@ export default function Women({ cartID, addToCart }) {
                     <option value="xxlarg">xxlarg</option>
                 </select>
             </div>
-            <div className="right d-flex col-md-6 justify-content-end">
+            <div className="rightCateg d-flex col-md-6 justify-content-end">
                 <p className='h4 fw-bold me-4'>Sort Products: </p>
                 <select className='form-select bg-dark text-light me-3' name="price" id="price">
                     <option disabled selected value="color">price</option>

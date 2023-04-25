@@ -94,7 +94,7 @@ export default function Register() {
             <input className='email form-control my-5 bg-dark text-light py-2 px-4' placeholder='Email' type="email" />
             <input className='pass form-control my-5 bg-dark text-light py-2 px-4' placeholder='Password' type="password" />
             <input className='phone form-control my-5 bg-dark text-light py-2 px-4' placeholder='Phone Numeber' type="text" />
-            <div onClick={register} className="btn btn-info">Register</div>
+            <div onClick={register} className="btn btn-info registerBTN">Register</div>
         </div>
 
     </>

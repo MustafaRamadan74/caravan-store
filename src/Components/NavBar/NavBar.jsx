@@ -14,7 +14,7 @@ export default function NavBar() {
 
     return <>
 
-        <div className="row py-3 mb-5">
+        <div className="row py-3 mb-5 w-100">
             <div className="col-md-4 d-flex ps-5 align-items-center">
                 <div className="language cursor-pointer mx-3">
                     EN

@@ -37,11 +37,13 @@ body {
 .arrLeft {
   left: -80px;
   z-index: 9999;
+  top: 50%;
 }
 
 .arrRight {
   right: -80px;
   z-index: 9999;
+  top: 50%;
 }
 
 .contentSlider {
@@ -190,6 +192,51 @@ body {
   color: blue;
 }
 
-.register{
+.register {
   height: 60vh;
+}
+
+@media screen and (max-width: 480px) {
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  .socialFooter {
+    margin: 50px 0;
+  }
+
+  .arrRight {
+    right: 24px;
+    top: 35%;
+  }
+
+  .arrLeft {
+    left: 0;
+    top: 35%;
+  }
+
+  .arrows {
+    left: 18px;
+    height: 150vh;
+  }
+
+  .contentSlider {
+    height: 150vh;
+    margin-bottom: 200px;
+  }
+  .categoryHome{
+    margin: 20px 0;
+  }
+  .rightCateg{
+    width: 100%;
+    justify-content: start !important;
+    margin-top: 20px;
+  }
+  .leftCateg{
+    width: 100%;
+  }
+  .form-select{
+    width: 90px;
+  }
 }

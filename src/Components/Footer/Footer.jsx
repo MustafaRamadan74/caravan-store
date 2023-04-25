@@ -13,7 +13,7 @@ export default function Footer() {
                             <p>Caravan is online store to give you the happiness in every peace. check our products and enjoy free shipping</p>
                         </div>
                     </div>
-                    <div className="col-md-4 position-relative">
+                    <div className="socialFooter col-md-4 position-relative">
                         <div className="social d-flex justify-content-center align-items-end">
                             <i className="fa-brands fa-2x text-danger cursor-pointer mx-3 fa-facebook"></i>
                             <i className="fa-brands fa-2x text-danger cursor-pointer mx-3 fa-twitter"></i>

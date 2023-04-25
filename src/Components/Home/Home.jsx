@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
-import slider2 from "../../images/slider1.jpg";
+import slider1 from "../../images/slider1.jpg";
 import slider3 from "../../images/slider2.jpg";
-import slider1 from "../../images/slider3.jfif";
+import slider2 from "../../images/slider3.jfif";
 import cat1 from "../../images/jacket.jpg";
 import cat2 from "../../images/wjacket.jpg";
 import cat3 from "../../images/jewelery.jpg";
@@ -67,7 +67,7 @@ export default function Slider() {
 
     return <>
         <div className="arrows position-relative">
-            <div onClick={() => handleSlider("left")} className="arrLeft position-absolute top-50 p-3 rounded-circle d-flex justify-content-center align-items-center cursor-pointer bg-danger">
+            <div onClick={() => handleSlider("left")} className="arrLeft position-absolute p-3 rounded-circle d-flex justify-content-center align-items-center cursor-pointer bg-danger">
                 <i className="fa-solid fa-arrow-left"></i>
             </div>
 
@@ -116,14 +116,14 @@ export default function Slider() {
                 </div>
             </div>
 
-            <div onClick={() => handleSlider("right")} className="arrRight position-absolute top-50 p-3 rounded-circle d-flex justify-content-center align-items-center cursor-pointer bg-danger ">
+            <div onClick={() => handleSlider("right")} className="arrRight position-absolute p-3 rounded-circle d-flex justify-content-center align-items-center cursor-pointer bg-danger ">
                 <i className="fa-solid fa-arrow-right"></i>
             </div>
         </div>
 
         <div className="categories container my-5">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 categoryHome">
                     <div className="catContainer position-relative">
                         <Link className='catLink' to={"/men"}>
                             <img className='w-100 catimg' src={cat1} alt="jacket" />
@@ -133,7 +133,7 @@ export default function Slider() {
                         </Link>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 categoryHome">
                     <div className="catContainer position-relative">
                         <Link className='catLink' to={"/women"}>
                             <img className='w-100 catimg' src={cat2} alt="jacket" />
@@ -143,7 +143,7 @@ export default function Slider() {
                         </Link>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 categoryHome">
                     <div className="catContainer position-relative">
                         <Link className='catLink' to={"/jewelery"}>
                             <img className='w-100 catimg' src={cat3} alt="jewelery" />
