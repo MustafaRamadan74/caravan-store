@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(./images/black.jpg);
+  color: white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.searchBox {
+  border: 0.5px solid lightslategray;
+  width: 50%;
+}
+
+.searchInput {
+  border: none;
+  width: 90%;
+  background-color: transparent;
+  color: grey;
+}
+
+.arrows {
+  width: 100%;
+  height: 100vh;
+}
+
+.imgSlider {
+  border-radius: 20px;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.arrLeft {
+  left: -80px;
+  z-index: 9999;
+}
+
+.arrRight {
+  right: -80px;
+  z-index: 9999;
+}
+
+.contentSlider {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sliderContent0 {
+  width: 100%;
+  height: 100%;
+}
+
+.sliderContent1 {
+  width: 100%;
+  height: 100%;
+}
+
+.sliderContent2 {
+  width: 100%;
+  height: 100%;
+}
+
+.catimg {
+  height: 450px;
+  border-radius: 15px;
+}
+
+.catLink {
+  text-decoration: none;
+  color: white;
+}
+
+.catHover {
+  width: 100%;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  position: absolute;
+  transition: 1s;
+}
+
+.catContainer:hover .catHover {
+  transform: translateY(-450px);
+}
+
+.catContainer {
+  overflow: hidden;
+}
+
+.catContainer:hover .catLink {
+  color: white;
+}
+
+.homePageLink {
+  text-decoration: none;
+}
+
+.productCard {
+  border-radius: 20px;
+}
+
+.proImg {
+  height: 480px;
+  border-radius: 20px;
+}
+
+.price {
+  top: -15px;
+  right: -20px;
+}
+
+.content {
+  height: 250px;
+}
+
+.seeMore {
+  text-decoration: none;
+  color: teal;
+  margin: 0 10px;
+}
+
+.social::before {
+  content: "";
+  width: 1px;
+  height: 120px;
+  background-color: gray;
+  position: absolute;
+  left: 0;
+  top: -40px;
+}
+
+.social::after {
+  content: "";
+  width: 1.5px;
+  height: 120px;
+  background-color: gray;
+  position: absolute;
+  right: 10px;
+  top: -40px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.form-select {
+  width: 20%;
+}
+
+.spin {
+  z-index: 99999;
+}
+
+.imgDetails {
+  border-radius: 20px;
+}
+
+.numOfProduct {
+  width: 50px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.white {
+  background-color: #fff;
+  color: #fff;
+}
+
+.black {
+  background-color: #000;
+  color: #000;
+}
+
+.red {
+  background-color: red;
+  color: red;
+}
+
+.green {
+  background-color: green;
+  color: green;
+}
+
+.blue {
+  background-color: blue;
+  color: blue;
+}
+
+.register{
+  height: 60vh;
+}
